@@ -17,7 +17,7 @@ function setup(){
 function draw(){
     image(img, 0, 0, 640, 420);
     if(status != ""){
-        for (i = 0; i <object.length; i++)
+        for (var i = 0; i <object.length; i++)
         {
             document.getElementById("status").innerHTML = "Status : Object Detected";
 
