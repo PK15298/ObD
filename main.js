@@ -19,7 +19,7 @@ function draw(){
     if(statuss != ""){
         for (i = 0; i <object.length; i++)
         {
-            document.getElementById("statuss").innerHTML = "Status : Object Detected";
+            document.getElementById("status").innerHTML = "Status : Object Detected";
 
             fill("#FF0000");
             percent = floor(object[i].confidence *100);
