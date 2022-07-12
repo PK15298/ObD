@@ -21,11 +21,11 @@ function draw(){
         {
             document.getElementById("status").innerHTML = "Status : Object Detected";
 
-            fill("#FF0000");
+            fill(255, 0, 0);
             percent = floor(object[i].confidence *100);
             text(object[i].label + " " + percent + "%", object[i].x, object[i].y);
             noFill();
-            stroke("#FF0000");
+            stroke(255, 0, 0);
             rect(object[i].x, object[i].y, object[i].width, object[i].height);
         }
     }
